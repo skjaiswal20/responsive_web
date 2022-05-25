@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor:pointer;
+}
+.nav-list{
+  width: 60%;
+  /*background-color: black;*/
+  display: flex;
+  align-items: center;
+}
+.nav-list li {
+  list-style: none;
+  padding: 23px 30px;
+  /*padding: 5%;*/
+}
+.nav-list li a{
+  text-decoration: none;
+  color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(26, 232, 36);
+}
+.rightNav{
+    width: 40%;
+    text-align: right;
+    padding: 0px 23px ;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+   background: rgba(0, 0, 0, 0.7) url(../img/canal.jpg);
+   background-size: cover;
+   background-blend-mode:darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 75%;
+    margin: auto;
+    height: 70%;
+}
+.firstSection{
+    height: 100vh;
+}
+.firstHalg{
+     width: 80%;
+     display: flex;
+     justify-content: center;
+     
+}
+.secondHalf{
+     width: 30%;
+    
+}
+.secondHalf img{
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+}
+.text_big{
+    font-size: 40px;
+}
+.text_small{
+font-size: 20px;
+}
+.btn{
+    padding: 8px 20px ;
+    margin: 10px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18 px;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+.btn-sm{
+    padding: 6px 10px ;
+    vertical-align: middle;
+}
+.btn-dark{
+    color: black;
+    border:2px solid black;
+    
+}
+.sect{
+    
+    display:flex;
+    justify-content: space-evenly;
+   align-items:center;
+   max-width: 80%;
+   margin:auto;
+   margin-bottom: 15px;
+   margin-top: 15px;
+}
+.section_left{
+   flex-direction: row-reverse;
+}
+.section_right{
+    flex-direction: row;
+}
+.paras{
+    padding: 0px 65px;
+    width: 100%;
+}
+.contact{
+    background-color: rgb(155, 190, 220);
+    height:75vh;
+}
+.text-center{
+    text-align: center;
+}
+.form{
+    max-width: 62%;
+    margin: auto;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-input {
+    width: 100%;
+    font-size: 19px;
+    margin-top: 18px;
+   border-radius: 5px;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15%;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
